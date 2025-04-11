@@ -7,7 +7,7 @@ HEIGHT = 175  # Рост
 K_1 = 0.035  # Коэффициент для подсчета калорий
 K_2 = 0.029  # Коэффициент для подсчета калорий
 STEP_M = 0.65  # Длина шага в метрах
-storage_data: dict[str, int] = {}
+storage_data: dict[dt.time, int] = {}
 
 
 def check_correct_data(data: int) -> bool:
